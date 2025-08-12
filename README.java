@@ -44,7 +44,6 @@ public class Employee {
         System.out.println("==============================");
     }
 
-    // Subclasses for each designation
     static class Programmer extends Employee {
         Programmer(String name, String id, String address, String mail, long mobile, double bp) {
             super(name, id, address, mail, mobile, bp);
@@ -73,7 +72,6 @@ public class Employee {
         }
     }
 
-    // Main method inside Employee class
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
